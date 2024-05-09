@@ -8,6 +8,7 @@ I built this test project using Azure Functions, CosmosDB, and APIM, along with 
 
 > The Photos/mages that are being generated are coming from [Lorem Picsum](https://picsum.photos/ "Lorem Picsum")
 
+![](https://github.com/ryannninodizon/Azure-ServerlessApp-Template-for-Dotnet-Angular/blob/main/banner.png)
 
 # How to make this working?
 ### Update environment values 
