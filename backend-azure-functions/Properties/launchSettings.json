@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "backend_azure_functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7271",
+      "launchBrowser": false
+    }
+  }
+}

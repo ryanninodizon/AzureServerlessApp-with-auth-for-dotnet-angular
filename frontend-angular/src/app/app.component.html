@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <a class="title" href="/">
+    <img class="brand-logo" src="/assets/Microsoft_Entra_ID_Logo.png" height="50px" alt="Entra Id Logo" />
+  </a>
+
+  <div class="toolbar-spacer"></div>
+
+  <a mat-button [routerLink]="['profile']">Profile</a>
+
+  @if (!loginDisplay) {
+  <button mat-raised-button (click)="loginRedirect()">Login</button>
+  }
+
+  @if (loginDisplay) {
+  <button mat-raised-button (click)="logout()">Logout</button>
+  }
+
+</mat-toolbar>
+<div class="container">
+  <!--This is to avoid reload during acquireTokenSilent() because of hidden iframe -->
+  @if (!isIframe) {
+  <router-outlet></router-outlet>
+  }
+</div>

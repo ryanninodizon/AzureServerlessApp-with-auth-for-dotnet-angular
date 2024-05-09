@@ -1,0 +1,41 @@
+@baseUrl = http://localhost:7071/api/
+
+GET {{baseUrl}}items HTTP/1.1
+
+### 
+GET {{baseUrl}}items/2 HTTP/1.1
+
+###
+DELETE {{baseUrl}}items/2 HTTP/1.1
+
+###
+POST {{baseUrl}}items HTTP/1.1
+content-type: application/json
+
+{
+      "id": "3",
+      "name": "Homesteady Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://picsum.photos/id/164/1200/800",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+  }
+
+###
+
+PUT {{baseUrl}}items/2 HTTP/1.1
+content-type: application/json
+
+{
+      "id": "2",
+      "name": "RYANWarm Beds Housing Support",
+      "city": "Juneau",
+      "state": "AK",
+      "photo": "https://picsum.photos/id/164/1200/800",
+      "availableUnits": 1,
+      "wifi": false,
+      "laundry": false
+  }
+
