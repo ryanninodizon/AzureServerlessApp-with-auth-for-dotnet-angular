@@ -31,15 +31,11 @@ export class HousingService {
         console.error('Error:', error);
         return undefined;
     }
-
-
   }
   submitApplication(firstName: string, lastName: string, email: string) {
-    // tslint:disable-next-line 
     console.log(firstName, lastName, email);
   }
   submitHouse(houseName: string, address: string,id: string) {
- 
 
     const randomNumber = Math.floor(Math.random() * (200 - 80 + 1)) + 80;
 
@@ -62,13 +58,10 @@ export class HousingService {
                   console.error('POST request error', error);
               }
           );
-
   }
 
-  deleteHouse(id: any) {
-   
-     this.http.delete(`${this.url}/${id}`).subscribe();
-    
+  deleteHouse(id: any) {   
+     this.http.delete(`${this.url}/${id}`).subscribe();    
   }
 
 }
