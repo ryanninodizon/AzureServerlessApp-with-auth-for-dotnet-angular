@@ -36,8 +36,8 @@ Update the **httpRyanInterceptor** to match how you prefer to get an Access Toke
 > /frontend-angular/src/app/http-ryan.interceptor.ts
 
 ```javascript
-//Getting access token from localStorageSession -- Temporary implementation - better implementation to use the Auth object of MSAL
-  let token = localStorage.getItem("00000000-0000-0000-84d1-95697bafc8a6.9188040d-6c67-4c5b-b112-36a304b66dad-login.windows.net-idtoken-c1eed0b4-a59d-46bd-b3ee-416e35abbfa3-3e11228a-56f5-450d-9cf1-6283bdb7f12c---"); 
+//Getting access token from localStorage Session
+  let token = localStorage.getItem("<msal.access_token> - this can be different, so I strongly suggest to use the MSAL object to get the correct value"); 
   let secret = token?.split(",")[4].split(":")[1].toString();
   secret = secret?.substring(1, secret.length - 1);
   
