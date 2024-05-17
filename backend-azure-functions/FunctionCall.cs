@@ -10,7 +10,7 @@ namespace Serverless.Api
 {
     public class FunctionCall
     {
-        private static readonly CosmosClient cosmosClient = new CosmosClient(CosmosDbConfig.EndpointUri,CosmosDbConfig.PrimaryKey);
+        private static readonly CosmosClient cosmosClient = new CosmosClient(CosmosDbConfig.DbEndpointUri,CosmosDbConfig.DbPrimaryKey);
         [Function("FunctionCallApi")]
         public async Task<HttpResponseData> 
         CrudCall([HttpTrigger(AuthorizationLevel.Function, "post","put","get", "delete", Route = "items/{id?}")] 
