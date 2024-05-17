@@ -25,8 +25,7 @@ namespace Serverless.Api
                         return await CosmosDbOperations.ReadAsync(req,container);
                     }else{
                         return await CosmosDbOperations.ReadAsync(req,container,id);//get all
-                    }
-                    
+                    }                    
                 case "POST":
                     return await CosmosDbOperations.CreateAsync(req,container);
                 case "PUT":
