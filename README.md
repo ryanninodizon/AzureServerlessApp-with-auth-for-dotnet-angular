@@ -15,7 +15,7 @@ I built this template project using Angular17-Standalone, Azure Functions, Cosmo
 You have to get the **ClientId** and **TenantId** from the App Registration page and update this file: 
 > frontend-angular/src/environments/environment.dev.ts
 
-   ```json
+```json
  msalConfig: {
         auth: {
             clientId: <client-id>,
@@ -23,6 +23,7 @@ You have to get the **ClientId** and **TenantId** from the App Registration page
         }
     }
 ```
+
 watch my YouTube video if you want to know how to get the clientId and TenantId  [How to use the Microsoft Identity Platform with Angular Application](https://youtu.be/QZnX_KXTpfI&t=60s "How to use the Microsoft Identity Platform with Angular Application")    
 
 ### Install Angular dependencies and run
@@ -52,7 +53,7 @@ Update the **httpRyanInterceptor** to match how you prefer to get an Access Toke
 
 ### Install CosmosClient dependency
 
-```json
+```bash
 dotnet add package Microsoft.Azure.Cosmos
 ```
 
