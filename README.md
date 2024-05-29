@@ -1,4 +1,4 @@
-# Azure Serverless Template using Angular-standalone, Azure Functions App and Cosmos DB - NoSQL and APIM
+# Azure Serverless Template using Angular-standalone, Azure Functions App and Cosmos DB and APIM
 
 I built this template project using Angular17-Standalone, Azure Functions, CosmosDB and APIM, along with MSAL (Microsoft Authentication Library) for authentication and authorization. I hope this will serve as a useful starting point for anyone exploring serverless development and the Microsoft Identity platform.
 
