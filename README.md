@@ -57,7 +57,7 @@ Update the **httpRyanInterceptor** to match how you prefer to get an Access Toke
 dotnet add package Microsoft.Azure.Cosmos
 ```
 
-Update this **CosmosDbConfig** class if needed especially the DatabaseName and ContainerName.
+Update this **CosmosDbConfig** class. Add the necessary values. Get it from Azure portal. 
 ```csharp
 namespace Serverless.Api
 {
