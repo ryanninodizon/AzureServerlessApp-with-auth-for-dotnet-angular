@@ -59,5 +59,4 @@ export class HousingService {
   deleteHouse(id: any) {   
      this.http.delete(`${this.url}/${id}`).subscribe();    
   }
-
 }
