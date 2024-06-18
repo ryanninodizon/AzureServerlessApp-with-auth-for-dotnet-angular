@@ -8,7 +8,6 @@ import { catchError } from 'rxjs';
 export class HousingService {
   
   constructor(private http: HttpClient){}
-
   //url = 'http://localhost:3000/locations';
   //url = 'http://localhost:7071/api/items';
   url = 'https://apim-abp-conference.azure-api.net/api/items';
@@ -23,7 +22,6 @@ export class HousingService {
       }
   }
   async getHousingLocationById(id: number): Promise<HousingLocation | undefined> {
-
     try {
       return await this.http.get<HousingLocation>(`${this.url}/${id}`).toPromise();
      
@@ -38,7 +36,6 @@ export class HousingService {
   submitHouse(houseName: string, address: string,id: string) {
 
     const randomNumber = Math.floor(Math.random() * (200 - 80 + 1)) + 80;
-
     return this.http.post<HousingLocation>(`${this.url}/${id}`, {
               "id": id,
               "name": houseName,
@@ -59,7 +56,6 @@ export class HousingService {
               }
           );
   }
-
   deleteHouse(id: any) {   
      this.http.delete(`${this.url}/${id}`).subscribe();    
   }
