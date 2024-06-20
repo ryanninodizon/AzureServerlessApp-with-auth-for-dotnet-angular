@@ -11,16 +11,6 @@
             "laundry": true
         },
         {
-            "id": "1",
-            "name": "A113 Transitional Housing",
-            "city": "Santa Monica",
-            "state": "CA",
-            "photo": "https://picsum.photos/id/164/1200/800",
-            "availableUnits": 0,
-            "wifi": false,
-            "laundry": true
-        },
-        {
             "id": "2",
             "name": "Warm Beds Housing Support",
             "city": "Juneau",
