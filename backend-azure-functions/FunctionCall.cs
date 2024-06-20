@@ -18,7 +18,6 @@ namespace Serverless.Api
         string id)
         {
             Container container= cosmosClient.GetContainer(CosmosDbConfig.DbName, CosmosDbConfig.DbContainerName);
-
             switch (req.Method){
                 case "GET":
                     if(id is null){
