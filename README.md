@@ -70,7 +70,7 @@ namespace Serverless.Api
 }
 ```
 
-Feel free to watch my YouTube video if you want to see how I created different Azure Services for this **template project**:   [How I build my Serverless API using Azure Functions App and Cosmos DB - NoSQL](https://youtu.be/D9fWa6KOhHg "How I build my Serverless API using Azure Functions App and Cosmos DB - NoSQL")
+Feel free to watch my YouTube video if you want to see how I created different Azure Services for this **template project**:   [Serverless Backend API using Azure Functions and Cosmos DB](https://youtu.be/D9fWa6KOhHg "Serverless Backend API using Azure Functions and Cosmos DB")
 
 # Screenshots
 #### Welcome page
