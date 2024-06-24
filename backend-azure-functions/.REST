@@ -10,6 +10,7 @@ DELETE {{baseUrl}}items/2 HTTP/1.1
 
 ###
 POST {{baseUrl}}items HTTP/1.1
+
 content-type: application/json
  {
       "id": "3",
@@ -25,6 +26,7 @@ content-type: application/json
 ###
 
 PUT {{baseUrl}}items/2 HTTP/1.1
+
 content-type: application/json
 {
       "id": "2",
