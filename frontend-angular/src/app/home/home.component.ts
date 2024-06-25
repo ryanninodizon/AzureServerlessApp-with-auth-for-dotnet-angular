@@ -38,7 +38,6 @@ submitHouse() {
         this.filteredLocationList = housingLocationList;
       });
    }
-
   ngOnInit(): void {
     this.msalBroadcastService.msalSubject$
       .pipe(
@@ -72,7 +71,6 @@ submitHouse() {
       housingLocation?.city.toLowerCase().includes(text.toLowerCase()),
     );
   }
-
   submitApplication() {
     this.housingService.submitHouse(
       this.applyForm.value.houseName ?? '',
