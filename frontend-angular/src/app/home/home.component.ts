@@ -17,7 +17,7 @@ import {FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
 })
 export class HomeComponent implements OnInit {
 submitHouse() {
-throw new Error('Method not implemented.');
+  throw new Error('Method not implemented.');
 }
   loginDisplay = false;
   housingLocationList: HousingLocation[] = [];
@@ -29,8 +29,7 @@ throw new Error('Method not implemented.');
     address: new FormControl(''),
     
   });
-
-
+  
   constructor(private authService: MsalService, private msalBroadcastService: MsalBroadcastService) {
       this.housingService
       .getAllHousingLocations()
@@ -57,8 +56,7 @@ throw new Error('Method not implemented.');
       )
       .subscribe(() => {
         this.setLoginDisplay();
-      })
-    
+      })    
   }
   
   setLoginDisplay() {
@@ -76,12 +74,10 @@ throw new Error('Method not implemented.');
   }
 
   submitApplication() {
-
     this.housingService.submitHouse(
       this.applyForm.value.houseName ?? '',
       this.applyForm.value.address ?? '',
       (this.housingLocationList.length + 1).toString(),
     );
-
   }
 }
