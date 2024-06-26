@@ -46,8 +46,7 @@ export class AppComponent implements OnInit, OnDestroy {
         } else {
           this.setLoginDisplay();
         }
-      });
-    
+      });    
     this.msalBroadcastService.inProgress$
       .pipe(
         filter((status: InteractionStatus) => status === InteractionStatus.None),
@@ -58,11 +57,9 @@ export class AppComponent implements OnInit, OnDestroy {
         this.checkAndSetActiveAccount();
       })
   }
-
   setLoginDisplay() {
     this.loginDisplay = this.authService.instance.getAllAccounts().length > 0;
   }
-
   checkAndSetActiveAccount(){
     /**
      * If no active account set but there are accounts signed in, sets first account to active account
@@ -76,7 +73,6 @@ export class AppComponent implements OnInit, OnDestroy {
       this.authService.instance.setActiveAccount(accounts[0]);
     }
   }
-
   loginRedirect() {
     if (this.msalGuardConfig.authRequest){
       this.authService.loginRedirect({...this.msalGuardConfig.authRequest} as RedirectRequest);
@@ -84,7 +80,6 @@ export class AppComponent implements OnInit, OnDestroy {
       this.authService.loginRedirect();
     }
   }
-
   loginPopup() {
     if (this.msalGuardConfig.authRequest){
       this.authService.loginPopup({...this.msalGuardConfig.authRequest} as PopupRequest)
