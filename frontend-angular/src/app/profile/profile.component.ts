@@ -8,7 +8,6 @@ type ProfileType = {
   userPrincipalName?: string,
   id?: string
 };
-
 @Component({
     selector: 'app-profile',
     templateUrl: './profile.component.html',
