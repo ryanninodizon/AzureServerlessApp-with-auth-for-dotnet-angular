@@ -24,6 +24,21 @@ content-type: application/json
   }
 
 ###
+POST {{baseUrl}}items HTTP/1.1
+
+content-type: application/json
+ {
+      "id": "4",
+      "name": "Homesteady Apartment",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://picsum.photos/id/144/1200/800",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": true
+  }
+
+###
 
 PUT {{baseUrl}}items/2 HTTP/1.1
 
