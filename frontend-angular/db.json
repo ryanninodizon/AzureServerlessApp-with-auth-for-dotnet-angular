@@ -31,6 +31,16 @@
             "laundry": false
         },
         {
+            "id": "15",
+            "name": "Capital Not Safe Towns",
+            "city": "Portland",
+            "state": "OR",
+            "photo": "https://picsum.photos/id/14/1200/800",
+            "availableUnits": 6,
+            "wifi": true,
+            "laundry": true
+        },
+        {
             "id": "4",
             "name": "Happy Homes Group",
             "city": "Gary",
