@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
     styleUrls: [],
     standalone: true
 })
+  
 export class FailedComponent {}
