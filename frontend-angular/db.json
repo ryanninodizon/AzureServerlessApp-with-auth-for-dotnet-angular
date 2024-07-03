@@ -27,7 +27,7 @@
             "state": "IL",
             "photo": "https://picsum.photos/id/164/1200/800",
             "availableUnits": 1,
-            "wifi": true,
+            "wifi": false,
             "laundry": false
         },
         {
