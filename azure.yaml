@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: AzureServerlessApp-with-auth-for-dotnet-angular
+metadata:
+    template: azd-init@1.9.4
+services:
+    backend-azure-functions:
+        project: backend-azure-functions
+        host: containerapp
+        language: dotnet
+    frontend-angular:
+        project: frontend-angular
+        host: containerapp
+        language: ts
+        dist: dist/frontend-angular
