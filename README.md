@@ -10,7 +10,7 @@ I built this template project using Angular17-Standalone, Azure Functions, Cosmo
 
 ![](https://github.com/ryannninodizon/Azure-ServerlessApp-Template-for-Dotnet-Angular/blob/main/banner.png)
 
-# Application Architecture Diagram 
+# Simple Architecture Diagram 
 ![](https://github.com/ryannninodizon/Azure-ServerlessApp-Template-for-Dotnet-Angular/blob/main/serverless-application-flow.png)
 
 # How to make this working?
