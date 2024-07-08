@@ -13,7 +13,7 @@ I built this template project using Angular17-Standalone, Azure Functions, Cosmo
 # Simple Architecture Diagram 
 ![](https://github.com/ryannninodizon/Azure-ServerlessApp-Template-for-Dotnet-Angular/blob/main/serverless-application-flow.png)
 
-### Prerequisites
+## Prerequisites
 Make sure to install these development tools.
 - [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "Azure Developer CLI") - for a quick Azure deployment.
 - [Node.js with npm (18.17.1+) ](https://nodejs.org/en "Node.js with npm (18.17.1+) ")- for Angular installation and SPA development.
