@@ -13,6 +13,14 @@ I built this template project using Angular17-Standalone, Azure Functions, Cosmo
 # Simple Architecture Diagram 
 ![](https://github.com/ryannninodizon/Azure-ServerlessApp-Template-for-Dotnet-Angular/blob/main/serverless-application-flow.png)
 
+### Prerequisites
+Make sure to install the items listed below.
+- [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "Azure Developer CLI") - For a quick Azure deployment.
+- [Node.js with npm (18.17.1+) ](https://nodejs.org/en "Node.js with npm (18.17.1+) ")- for Angular installation and SPA development.
+- [Angular CLI](https://angular.io/cli "Angular CLI")
+- [Azure SDK Tools](https://azure.github.io/azure-sdk/ "Azure SDK Tools") - For wokring with Azure Functions locally and other any Azure services related stuff.
+- [.NET Runtime](https://dotnet.microsoft.com/en-us/ ".NET Runtime")
+
 # How to make this working?
 ### Update environment values 
 You have to get the **ClientId** and **TenantId** from the App Registration page and update this file: 
@@ -34,7 +42,7 @@ watch my YouTube video if you want to know how to get the clientId and TenantId 
 npm install
 ```
 ```csharp
-ng start
+ng start or ng serve
 ```
 Update the **httpRyanInterceptor** to match how you prefer to get an Access Token, which you will then use for Bearer Authorization.
 > /frontend-angular/src/app/http-ryan.interceptor.ts
@@ -74,6 +82,22 @@ namespace Serverless.Api
 ```
 
 Feel free to watch my YouTube video if you want to see how I created different Azure Services for this **template project**:   [Serverless Backend API using Azure Functions and Cosmos DB](https://youtu.be/D9fWa6KOhHg "Serverless Backend API using Azure Functions and Cosmos DB")
+# Azure Deployment
+Deploying this template project can be easily done uzing Azure Developer CLI - make sure to install this locally - get it [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "here").
+```bash
+# Make sure to login to your Azure Subscription account by executing this azd command 
+azd auth login
+
+# You can still execure this to make sure everything is ok.
+azd init
+
+# Provision and deploy to Azure
+azd up
+
+# Delete any created servcices/resouces when you don't need it anymore
+azd down
+```
+
 
 # Screenshots
 #### Welcome page
