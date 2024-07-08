@@ -83,7 +83,7 @@ namespace Serverless.Api
 
 Feel free to watch my YouTube video if you want to see how I created different Azure Services for this **template project**:   [Serverless Backend API using Azure Functions and Cosmos DB](https://youtu.be/D9fWa6KOhHg "Serverless Backend API using Azure Functions and Cosmos DB")
 # Azure Deployment
-Deploying this template project can be easily done uzing Azure Developer CLI - make sure to install this locally - get it [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "here").
+Deploying this template project can be easily done using Azure Developer CLI - make sure to install this locally - get it [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "here").
 ```bash
 # Make sure to login to your Azure Subscription account by executing this azd command 
 azd auth login
