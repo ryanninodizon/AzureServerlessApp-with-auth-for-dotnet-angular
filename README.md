@@ -88,7 +88,7 @@ Deploying this template project can be easily done using Azure Developer CLI - m
 # Make sure to login to your Azure Subscription account by executing this azd command 
 azd auth login
 
-# You can still execure this to make sure everything is ok.
+# You can still execute this to make sure everything is ok.
 azd init
 
 # Provision and deploy to Azure
