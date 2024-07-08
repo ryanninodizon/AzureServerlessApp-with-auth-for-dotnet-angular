@@ -15,9 +15,9 @@ I built this template project using Angular17-Standalone, Azure Functions, Cosmo
 
 ### Prerequisites
 Make sure to install the items listed below.
-- [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "Azure Developer CLI") - For a quick Azure deployment.
+- [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "Azure Developer CLI") - for a quick Azure deployment.
 - [Node.js with npm (18.17.1+) ](https://nodejs.org/en "Node.js with npm (18.17.1+) ")- for Angular installation and SPA development.
-- [Azure SDK Tools](https://azure.github.io/azure-sdk/ "Azure SDK Tools") - For wokring with Azure Functions locally and other any Azure services related stuff.
+- [Azure SDK Tools](https://azure.github.io/azure-sdk/ "Azure SDK Tools") - for wokring with Azure Functions locally and other any Azure services related stuff.
 - [.NET Runtime](https://dotnet.microsoft.com/en-us/ ".NET Runtime")
 - [Angular CLI](https://angular.io/cli "Angular CLI")
 
