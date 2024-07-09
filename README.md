@@ -20,6 +20,7 @@ Make sure to install these development tools and SDKs.
 - [Azure SDK Tools](https://azure.github.io/azure-sdk/ "Azure SDK Tools") - for wokring with Azure Functions locally and other any Azure services related stuff.
 - [.NET Runtime](https://dotnet.microsoft.com/en-us/ ".NET Runtime")
 - [Angular CLI](https://angular.io/cli "Angular CLI")
+- [Docker](https://www.docker.com "Docker") - this is needed when you run azd up locally
 
 # How to make this working?
 ### Update environment values 
