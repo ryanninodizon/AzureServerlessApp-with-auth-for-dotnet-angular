@@ -106,7 +106,7 @@ azd up
 # Delete any created servcices/resouces when you don't need it anymore
 azd down
 ```
-
+![](https://github.com/ryanninodizon/AzureServerlessApp-with-auth-for-dotnet-angular/blob/main/azd-execution.JPG)
 
 # Screenshots
 #### Welcome page
