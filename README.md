@@ -113,7 +113,7 @@ azd down
 ![](https://github.com/ryanninodizon/AzureServerlessApp-with-auth-for-dotnet-angular/blob/main/deployed-to-azure.JPG)
 
 
-#### List page
+#### List page (local build)
 ![](https://github.com/ryannninodizon/msal-angular17-with-listdata/blob/main/Screenshots/list-page.JPG)
 
 
