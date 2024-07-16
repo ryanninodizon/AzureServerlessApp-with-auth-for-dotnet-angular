@@ -91,6 +91,9 @@ docker run -d -p 8080:80 angular-with-msal-template
 ```
 ![](https://github.com/ryanninodizon/AzureServerlessApp-with-auth-for-dotnet-angular/blob/main/docker-build-and-run.gif)
 
+# Import Azure Function App to Azure API Management
+You can visit this official documentation to learn how to secure and import a Function app to Azure API Management: [Import an Azure Function App as an API in Azure API Management](https://learn.microsoft.com/en-us/azure/api-management/import-function-app-as-api "Import an Azure Function App as an API in Azure API Management")
+
 # Azure Deployment
 Deploying this template project can be easily done using Azure Developer CLI - make sure to install this locally - get it [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows "here").
 ```bash
