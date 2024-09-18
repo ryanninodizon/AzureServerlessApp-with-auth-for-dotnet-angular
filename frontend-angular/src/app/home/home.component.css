@@ -92,6 +92,16 @@ FOrm box
     border: solid .3px;
     color: black!important;
   }
+input {
+    font-size: 16pt!important;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 400px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid .3px !important;
+  }
   @media (max-width: 1024px) {
     .listing-photo {
       width: 100%;
