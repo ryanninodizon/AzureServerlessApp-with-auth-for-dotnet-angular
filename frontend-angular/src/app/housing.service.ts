@@ -22,8 +22,7 @@ export class HousingService {
   }
   async getHousingLocationById(id: number): Promise<HousingLocation | undefined> {
     try {
-      return await this.http.get<HousingLocation>(`${this.url}/${id}`).toPromise();
-     
+      return await this.http.get<HousingLocation>(`${this.url}/${id}`).toPromise();     
     } catch (error) {
         console.error('Error:', error);
         return undefined;
