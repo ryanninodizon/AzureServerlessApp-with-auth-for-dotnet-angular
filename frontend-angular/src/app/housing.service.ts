@@ -8,7 +8,6 @@ import { catchError } from 'rxjs';
 export class HousingService {
   
   constructor(private http: HttpClient){}
-  //url = 'http://localhost:3000/locations';
   //url = 'http://localhost:7071/api/items';
   url = 'https://apim-abp-conference.azure-api.net/api/items';
 
