@@ -17,7 +17,6 @@ namespace Serverless.Api
             await response.WriteStringAsync("New Item Added");
             return response;
         }
-
         public static async Task<HttpResponseData> DeleteAsync(HttpRequestData req, Container container, string id)
         {
            await container.DeleteItemAsync<dynamic>(id, new PartitionKey(id));
