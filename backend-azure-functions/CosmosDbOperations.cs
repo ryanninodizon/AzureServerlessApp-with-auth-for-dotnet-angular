@@ -24,7 +24,6 @@ namespace Serverless.Api
            await response.WriteStringAsync("Item was successfully deleted");
            return response;
         }
-
         public static async Task<HttpResponseData> ReadAsync(HttpRequestData req, Container container, string id)
         {
             try{
