@@ -18,6 +18,5 @@ COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist/frontend-angular/browser /usr/share/nginx/html
 
 expose 80
-
 #docker build -t angular-with-msal-template .
 #run: docker run -d -p 8080:80 angular-with-msal-template
