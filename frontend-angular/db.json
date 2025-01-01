@@ -10,7 +10,7 @@
             "wifi": true,
             "laundry": true
         },
-        {
+        /*{
             "id": "2",
             "name": "Warm Beds Housing Support",
             "city": "Juneau",
@@ -19,7 +19,7 @@
             "availableUnits": 1,
             "wifi": false,
             "laundry": false
-        },
+        },*/
         {
             "id": "3",
             "name": "Homesteady Housing",
