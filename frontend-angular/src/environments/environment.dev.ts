@@ -7,7 +7,7 @@ export const environment = {
         }
     },
     apiConfig: {
-        scopes: ['user.read'],
+        scopes: ['user.read'],//This scopes should be added in "EntraID > App Registrations > API Permissions"
         uri: 'https://graph.microsoft.com/v1.0/me',
         backendapi:''
     }
